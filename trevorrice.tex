@@ -1,0 +1,173 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author)
+% http://mboedick.org (c) 2003 David J. Grant <dgrant@ieee.org>
+% http://www.davidgrant.ca (c) 2007 Todd C. Miller
+% http://github.com/shanep (c) 2013 Shane K. Panter
+% <Todd.Miller@courtesan.com> http://www.courtesan.com/todd (c) 2009
+% Derek R. Hildreth <derek@derekhildreth.com>
+% http://www.derekhildreth.com This work is licensed under the
+% Creative Commons Attribution-NonCommercial-ShareAlike License. To
+% view a copy of this license, visit
+% http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter
+% to Creative Commons, 559 Nathan Abbott Way, Stanford, California
+% 94305, USA.
+
+% GENERAL NOTE: There may be some notes specific to myself.  If you're
+% only interested in my LaTeX source or it doesn't make sense, please
+% disregard it.
+
+\documentclass[letterpaper,11pt]{article}
+
+% -----------------------------------------------------------
+\usepackage{latexsym} \usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color} \usepackage{verbatim}
+\usepackage[pdftex]{hyperref} \hypersetup{ colorlinks,%
+  citecolor=black,%
+  filecolor=black,%
+  linkcolor=black,%
+  urlcolor=mygreylink % can put red here to visualize the links
+} \urlstyle{same} \definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.30} \textheight=9.0in \raggedbottom
+\raggedright \setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in} \addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in} \addtolength{\textheight}{0.75in}
+
+% ----------------------------------------------------------- Custom
+% commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large
+    \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1
+            \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-6pt}}
+% -----------------------------------------------------------
+
+% ----------------------------------------------------------- General
+% Resume Tips No periods!  Technically, nothing in this document is a
+% full sentence.  Use parallelism by ending key words with the same
+% thing, i.e. "Coordinated; Designed; Communicated".  More tips on
+% bottom of this LaTeX document.
+% -----------------------------------------------------------
+
+\begin{document}
+
+\newcommand{\mywebheader}{
+  \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{https://www.linkedin.com/in/ricetrevor}
+    {\LARGE Trevor Rice}} & \href{mailto:trice@cs.boisestate.edu}{trice@cs.boisestate.edu}\\
+    {\footnotesize \texttt{208-440-9519}} &
+    \href{https://www.linkedin.com/in/ricetrevor} {https://www.linkedin.com/in/ricetrevor} \\
+  \end{tabular*}
+  \\
+  \vspace{0.1in}}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+
+\resheading{Education}
+\begin{itemize}
+\item \ressubheading{\href{http://www.boisestate.edu}
+		{Boise State University }}
+		{Boise, Idaho }
+		{\href{http://cs.boisestate.edu}
+		{Bachelor of Computer Science Student}}
+		{Current}
+		{ \footnotesize
+    \begin{itemize}
+				\resitem{Relevant Courses: Computer Science I and II, Data Structures and
+					Algorithms, Systems Programming, Engineering Statistics, Digital Systems,
+					Microprocessors}
+
+      \resitem{Cisco CCNA}
+      \resitem{CompTIA: A+, Network+}
+
+
+    \end{itemize}
+		}
+
+\item \ressubheading
+	{\href{http://www.cisco.com/web/learning/certifications/associate/ccna/index.html}
+		{Cisco }}{San Francisco, CA }{\href{http://www.cisco.com}{CCNA }}{    August 2005} { \footnotesize
+    \begin{itemize}
+      \resitem{Relevant Courses: CCNA}
+    \end{itemize}
+  }
+
+\item \ressubheading
+	{\href{http://certification.comptia.org}
+		{CompTIA }}{Downers Grove, IL }{\href{http://www.comptia.org}{ }}{    October 2005} { \footnotesize
+    \begin{itemize}
+      \resitem{Relevant Courses: A+, Network +}
+    \end{itemize}
+  }
+
+\end{itemize} % End Education list
+
+
+\resheading{Experience}
+\begin{itemize}
+
+\item \ressubheading{CenturyLink Telecommunications}
+    {Boise, Idaho}
+    {Repair Supervisor}
+    {February 2004 -- Present}
+    { \footnotesize
+    \begin{itemize}
+						\resitem{Supervisor of Technical Support Agents (2007 - Present) -
+										Manage 12 - 16 support agents in a call center environment. My team and I support both
+										internal and external customers. My function is as a supervisor, a resource and a
+										software developer.}
+						\resitem{Software Developer (2005 - Present) -
+										Created several internal web-based tools used in supporting customers Internet
+										connection and managing account information. I manage three other support tools
+										that have been developed for the same purpose with more information integration.}
+						\resitem{Senior Support Technician (2005 - 2007) -
+                    Technical support for Internal and External customers.\n
+										Skills: Trouble Isolation, Problem Solving, Networking,
+										Tier III Engineering Support for Next Level Equipment}
+						\resitem{Internet Support Technician (2004 - 2005) -
+										Supported customers Internet and home networks, email, browsing, etc.}
+    \end{itemize}
+  }
+
+\item \ressubheading{EDS - HP Engineering Center}
+    {Boise, Idaho}
+    {Hardware Support Engineer}
+    {June 2000 -- February 2004}
+    { \footnotesize
+    \begin{itemize}
+            \resitem{Supported Beta and early release of HP Digital Cameras -
+										Provided support for all HP Cameras released while isolating emerging issues,
+									  developing trouble solutions, and documentation}
+    \end{itemize}
+  }
+
+\end{itemize} % End Experience list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\pagebreak
+\resheading{Skills}
+\begin{description}
+\item[Languages:] { \footnotesize C, Java, Javascript, HTML}
+\item[Operating Systems:] { \footnotesize Linux, Windows 9x, XP, 7, CE, OSX, iOS}
+\item[Debugging:] {\footnotesize Debugging defects, hardware, software, websites, networks}
+\item[Troubleshooting]
+\item[Telecommunications]
+\item[Management]
+\item[Technical Writing]
+\item[Broadband]
+\item[LAN-WAN]
+\item[Wireless]
+\item[Creative Problem Solving]
+\end{description}
+% End Skills list
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
