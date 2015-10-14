@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.10.14)  14 OCT 2015 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.10.14)  14 OCT 2015 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,16 +214,30 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
-\AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring ON on input line 58.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen108
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks18
+)
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring ON on input line 58.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count98
+\c@section@level=\count104
 )
 LaTeX Info: Redefining \ref on input line 58.
 LaTeX Info: Redefining \pageref on input line 58.
@@ -310,10 +324,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) )
 (\end occurred when \ifx on line 22 was incomplete) 
 Here is how much of TeX's memory you used:
- 4832 strings out of 495025
- 72783 string characters out of 6181514
- 156375 words of memory out of 5000000
- 8025 multiletter control sequences out of 15000+600000
+ 5126 strings out of 495025
+ 76691 string characters out of 6181514
+ 160216 words of memory out of 5000000
+ 8316 multiletter control sequences out of 15000+600000
  9758 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,7n,27p,324b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
