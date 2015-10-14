@@ -51,3 +51,4 @@ mktextfm cmsy10
 mktextfm nullfont
 mktextfm cmti10
 mktextfm cmbx9
+mktextfm cmr10
